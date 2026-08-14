@@ -1,0 +1,23 @@
+# the retriever (search step) — turns Urdu text into searchable vectors
+sentence-transformers>=2.2
+
+# the generator (the language model that writes answers) + its plumbing
+transformers>=4.40
+torch>=2.0
+accelerate>=0.28
+bitsandbytes>=0.43        # 4-bit quantization so the 7B model fits on a free Colab T4
+
+# the dataset
+datasets>=2.18
+
+# scoring, the small detector, and data wrangling
+scikit-learn>=1.3
+pandas>=2.0
+numpy>=1.24
+
+# plots + progress bars
+matplotlib>=3.7
+tqdm>=4.65
+
+# note: everything here is free and open. no paid API keys anywhere in this project.
+# the language model (Qwen2.5-7B-Instruct) downloads automatically the first time you run it.
