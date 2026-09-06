@@ -1,4 +1,4 @@
-# Faithfulness Under Retrieval Failure: RAG for Low-Resource Urdu QA
+# Hallucination Detection in Low-Resource Urdu RAG Systems
 
 **When the "search" step of a question-answering system fails, does the model start making things up
 more — or does it notice, and back off?**
