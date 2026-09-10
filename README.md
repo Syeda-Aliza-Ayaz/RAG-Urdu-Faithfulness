@@ -1,4 +1,4 @@
-# Faithfulness Under Retrieval Failure in Urdu RAG — Multi-Model Scale Study
+# Hallucination Detection in Low-Resource Urdu RAG Systems
 
 **When retrieval hands a language model a wrong-but-plausible document, does it notice and back off,
 or does it trust the document and confidently answer wrong — and does that change as the model gets
