@@ -20,4 +20,4 @@ matplotlib>=3.7
 tqdm>=4.65
 
 # note: everything here is free and open. no paid API keys anywhere in this project.
-# the language model (Qwen2.5-7B-Instruct) downloads automatically the first time you run it.
+# the three Qwen2.5 models (0.5B, 1.5B, 7B) download automatically on first run.

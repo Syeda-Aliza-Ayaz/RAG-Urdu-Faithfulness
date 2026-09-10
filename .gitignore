@@ -1,12 +1,9 @@
 RAG_Urdu_Faithfulness/
+archive/
+results/
 *.npy
-answers.json
-eval_set.json
+*.zip
 kaggle.json
-condition_summary.json
-detector_features.json
-detector_scores.json
-SUMMARY.json
 .cache/
 hf_cache/
 __pycache__/
